@@ -1,0 +1,15 @@
+using arena.core.attacker;
+using arena.core.types;
+
+namespace arena.core.attacker
+{
+  public class Monster : AttackerBase
+  {
+    public MonsterType type { get; set; }
+
+    public override void move() { }
+    public override void normal_attack() { }
+    public override void healing() { }
+    public override void death() { }
+  }
+}
